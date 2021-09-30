@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Kalam', cursive;
+    
+}
+
+h1{
+    background-color: #FEC260;
+    text-align: center;
+    margin-block-start: 0;
+    padding: 1rem;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50vh;
+}
+
+#btn-translate{
+    padding: 1rem 1.5rem;
+    margin: 1rem;
+    font-family: inherit;
+    background-color: #fec260;
+    border: 1px solid #FEC260;
+    font-weight: bold;
+    font-size: 1rem;
+    
+}
+
+
+#output{
+    border: 1px solid black;
+    
+    
+    height: 10vh;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+footer{
+    text-align: center;
+    background-color: #FEC260;
+    padding: 1rem;
+    margin-block-start: 0;
+    
+}
+
+#about{
+    max-width: 40%;
+    margin: auto;
