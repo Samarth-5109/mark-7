@@ -3,11 +3,12 @@
 body{
     margin: 0;
     font-family: 'Kalam', cursive;
-    
+    background-color: #80ED99;
 }
 
 h1{
-    background-color: #FEC260;
+    background-color: #FF2626;
+    color: white;
     text-align: center;
     margin-block-start: 0;
     padding: 1rem;
@@ -17,25 +18,38 @@ h1{
 .container{
     display: flex;
     flex-direction: column;
+   
     margin: auto;
     width: 50vh;
+}
+#txt-input{
+    border-radius: 1rem;
+    border: 5px solid #38A3A5;
 }
 
 #btn-translate{
     padding: 1rem 1.5rem;
     margin: 1rem;
     font-family: inherit;
-    background-color: #fec260;
-    border: 1px solid #FEC260;
+    background-color: #57CC99;
+    border: 1px solid #57CC99;
+    border-radius: 1rem;
     font-weight: bold;
+    color: white;
     font-size: 1rem;
     
 }
 
+p{
+    color: white;
+    font-size: larger;
+}
+
 
 #output{
-    border: 1px solid black;
     
+    border-radius: 1rem;
+    border: 5px solid #38A3A5;
     
     height: 10vh;
     margin: 1rem;
@@ -44,12 +58,17 @@ h1{
 
 footer{
     text-align: center;
-    background-color: #FEC260;
+    background-color: #FF2626;
     padding: 1rem;
     margin-block-start: 0;
     
 }
 
+h2{
+color: white;
+}
 #about{
     max-width: 40%;
-    margin: auto;
+    margin: auto ;
+    color: white;
+}
